@@ -99,7 +99,7 @@ The extracted password was noted and used for authentication.
 
 Below is a placeholder screenshot showing the extracted password within the Burp Collaborator interaction and the successful login:
 
-```md
+
 ![Administrator Login & Password Extraction](images/admin-login-oob.png)
 ```
 
