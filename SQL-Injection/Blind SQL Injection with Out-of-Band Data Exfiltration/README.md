@@ -101,24 +101,5 @@ Below is a placeholder screenshot showing the extracted password within the Burp
 
 
 ![Administrator Login & Password Extraction](images/admin-login-oob.png)
-```
-
-*(Replace the path with your actual screenshot file)*
-
----
-
-## Conclusion
-
-This exercise demonstrates the practical exploitation of a **Blind SQL Injection** combined with **XXE‑based out‑of‑band exfiltration**. The attack bypassed the blindness by using an external channel (DNS/HTTP) to leak sensitive data quietly.  
-
-### Key Skills Showcased
-
-- Oracle‑specific SQL injection (UNION, XML functions)
-- XML External Entity (XXE) payload crafting
-- Burp Suite Professional’s Collaborator for out‑of‑band detection
-- Understanding asynchronous query execution
-- Credential extraction and privilege escalation
-
----
 
 **Disclaimer:** This activity was performed in a controlled, authorized lab environment for educational and ethical security testing purposes only.
