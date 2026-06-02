@@ -1,12 +1,5 @@
 ### Title: DOM-based XSS via Insecure Web Message Listener (`postMessage`)
 
-**Researcher:** [Your Name/Handle]
-**Date:** June 2, 2026
-**Severity:** High (Cross-Site Scripting)
-**CWE:** CWE-20: Improper Input Validation
-
----
-
 #### 1. Vulnerability Summary
 
 A DOM-based Cross-Site Scripting (XSS) vulnerability exists on the home page. The page uses a `postMessage` event listener to dynamically change the `src` attribute of an iframe, but it fails to verify the origin of the incoming message and does not sanitize the received `url` property. An attacker can send a malicious cross-origin message containing a `javascript:` URI, leading to arbitrary JavaScript execution in the victim's browser.
