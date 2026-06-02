@@ -1,4 +1,3 @@
-در اینجا یک گزارش حرفه‌ای، مختصر و آماده برای گیت‌هاب رزومه شما نوشته شده است. جای عکس (Screenshot) هم در انتها مشخص شده.
 ### Title: DOM-based XSS via Insecure Web Message Listener (`postMessage`)
 
 **Researcher:** [Your Name/Handle]
