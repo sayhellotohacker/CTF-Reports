@@ -90,7 +90,7 @@ window.addEventListener('message', function(event) {
         document.getElementById('ACMEplayer').src = url.href;
     }
 });
-
+```
 ![Before exploit](images/XSS.png)  
 
 #### 6. Exploit Server Configuration (Visual Step)
