@@ -59,7 +59,7 @@ http://localhost:80%2523@stock.weliketoshop.net/admin/delete?username=carlos
 - The path `/admin/delete?username=carlos` is appended, triggering the delete action
 
 > **[Screenshot 2: Response confirming successful deletion of user carlos]**
-!](./images/picture.png)  
+![](./images/picture.png)  
 ---
 
 ## Payload Breakdown
