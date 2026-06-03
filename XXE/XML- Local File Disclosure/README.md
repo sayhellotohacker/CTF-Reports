@@ -59,7 +59,7 @@ bin:x:2:2:bin:/bin:/usr/sbin/nologin
 The server processed the external entity and returned the contents of `/etc/passwd`, confirming successful local file disclosure.
 
 > **[Screenshot 1: Burp Suite response showing the /etc/passwd file contents in the error message]**
-![User Table Columns](./images/passwd.png)  
+![show-passwd](./images/passwd.png)  
 
 ---
 
