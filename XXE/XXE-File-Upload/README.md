@@ -34,6 +34,7 @@ An XXE vulnerability was found in the avatar upload feature. The application pro
 1. Created the above SVG locally
 2. Uploaded it as a comment avatar
 3. The rendered image displayed the server's hostname from `/etc/hostname`
+4. And we can see /etc/hostname in Avatar
 
 > **[Screenshot 2: Comment page showing hostname visible inside the rendered SVG avatar]**
 ![](./images/final.png)  
@@ -53,6 +54,3 @@ An XXE vulnerability was found in the avatar upload feature. The application pro
 2. Rasterize SVG uploads to PNG/JPEG server-side
 3. Sanitize SVG content with an allowlist-based library
 
----
-
-*PortSwigger Web Security Academy lab.*
