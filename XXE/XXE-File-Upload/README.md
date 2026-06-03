@@ -36,7 +36,7 @@ An XXE vulnerability was found in the avatar upload feature. The application pro
 3. The rendered image displayed the server's hostname from `/etc/hostname`
 
 > **[Screenshot 2: Comment page showing hostname visible inside the rendered SVG avatar]**
-![User Table Columns](./images/final.png)  
+!(./images/final.png)  
 
 ---
 
