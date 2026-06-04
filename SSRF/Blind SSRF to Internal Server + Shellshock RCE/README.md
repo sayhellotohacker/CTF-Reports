@@ -20,7 +20,7 @@ After installing the Collaborator Everywhere extension and adding the lab domain
 The extension highlighted the suspicious request in red — indicating that the Referer header value is fetched server-side.
 
 **[Image 1 – Burp Proxy showing red-highlighted request where Collaborator Everywhere detected the SSRF]**
-
+![](./images/1.png)  
 ---
 
 **Step 2 – Sending to Intruder & Crafting the Attack**
@@ -37,7 +37,7 @@ Shellshock payload used:
 The IP range was brute-forced from 1 to 255 using Numbers payload type with step 1.
 
 **[Image 2 – Burp Intruder showing Referer with payload position, User-Agent with Shellshock, and Numbers settings 1–255]**
-
+![](./images/2.png)  
 ---
 
 **Step 3 – Critical Finding: Single-Threaded Execution**
@@ -60,7 +60,7 @@ This confirms:
 - whoami output was peter-vplVZ1
 
 **[Image 3 – Burp Collaborator tab showing DNS lookup with peter-vplVZ1 in the subdomain]**
-
+![](./images/3.png)  
 ---
 
 **Lab Solved**
