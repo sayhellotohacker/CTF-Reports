@@ -28,7 +28,7 @@ While browsing the application, I noticed that when attempting to view details o
 ```
 GET /?message=Unfortunately%20this%20product%20is%20out%20of%20stock
 ```
-
+![](./images/1.png)
 The application renders: *"Unfortunately this product is out of stock"*
 
 This behavior suggested that user input was being processed by a server-side template engine.
@@ -52,14 +52,11 @@ To confirm template injection, I crafted a simple mathematical expression:
 ```
 GET /?message=<%25%3d+7*7+%25>
 ```
-
-*Screenshot placeholder: URL-encoded payload in browser address bar*
-
 **Response Analysis:**
 The server returned the value `49`, confirming that the ERB expression was evaluated and rendered. This definitively proved the presence of an SSTI vulnerability.
 
 *Screenshot placeholder: Page showing "49" rendered from mathematical operation*
-
+![](./images/2.png)
 ### 3. Exploitation
 
 #### Researching Ruby System Commands
@@ -84,6 +81,7 @@ GET /?message=<%25+system("rm+/home/carlos/morale.txt")+%25>
 ```
 
 *Screenshot placeholder: Final exploit URL with URL-encoded payload*
+![](./images/3.png)
 
 ### 4. Impact Assessment
 
@@ -134,6 +132,3 @@ result = template.result(binding)
 3. **Implement Web Application Firewall (WAF)** rules to detect template injection patterns
 4. **Regular security testing** including automated scans and manual penetration testing
 5. **Keep template engines updated** to benefit from security patches
-
---
-
