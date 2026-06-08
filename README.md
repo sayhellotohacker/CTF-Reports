@@ -12,18 +12,19 @@ This repository contains over **50 technical reports** on exploiting a wide rang
 | Category | # of Reports |
 | :--- | :--- |
 | **SQL Injection** | 5 |
-| **XSS (DOM, Stored, Reflected)** | 5 |
-| **XXE (OOB, SSRF, File Upload)** | 5 |
-| **Access Control (IDOR, Privilege Escalation)** | 4 |
-| **Authentication & 2FA Bypass** | 3 |
-| **SSRF & Command Injection** | 5 |
-| **HTTP Request Smuggling (CL.TE, TE.CL, TE.TE)** | 3 |
+| **XSS** | 5 |
+| **XXE** | 5 |
+| **Access Control** | 3 |
+| **Authentication** | 3 |
+| **Command Injection** | 3 |
+| **HTTP Request Smuggling** | 3 |
 | **Path Traversal** | 3 |
-| **CSRF & CORS** | 4 |
-| **SSTI & DOM Clobbering** | 2 |
+| **SSRF** | 3 |
+| **CSRF** | 2 |
+| **CORS** | 2 |
 | **WebSocket** | 2 |
-| **Other (Business Logic, API Security, etc.)** | ~10 |
-| **Total** | **50+** |
+| **SSTI** | 1 |
+| **Total** | **40** |
 
 ---
 
