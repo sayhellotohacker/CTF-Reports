@@ -1,9 +1,3 @@
-حتماً. با توجه به تعداد و تنوع گزارش‌هایی که داری (بیش از ۴۰ نوع آسیب‌پذیری مختلف از SQLi گرفته تا HTTP Smuggling، XXE OOB، WebSocket، Race Conditions و ...)، یک README حرفه‌ای برای پوشه CTF یا Write-ups دقیقاً چیزی است که کارفرماها را مجذوب می‌کند.
-
-در زیر یک README کامل و استاندارد بر اساس نمونه‌های موفق گیت‌هاب (مثل fabacab/awesome-ctf و .github) برایت آماده کرده‌ام.
-
----
-
 # 🛡️ Web Security CTF & Vulnerability Write-ups
 
 **Welcome to my cybersecurity research portfolio.**  
