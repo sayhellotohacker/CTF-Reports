@@ -1,7 +1,7 @@
 # 🛡️ Web Security CTF & Vulnerability Write-ups
 
 **Welcome to my cybersecurity research portfolio.**  
-This repository contains over **50 technical reports** on exploiting a wide range of web vulnerabilities, from OWASP Top 10 classics to advanced techniques like HTTP Request Smuggling, XXE OOB, WebSocket Hijacking, and Race Conditions.
+This repository contains over **40 technical reports** on exploiting a wide range of web vulnerabilities, from OWASP Top 10 classics to advanced techniques like HTTP Request Smuggling, XXE OOB, WebSocket Hijacking, and Race Conditions.
 
 > **Purpose:** This portfolio demonstrates my hands-on penetration testing skills, my approach to vulnerability discovery and exploitation, and my ability to produce clear, actionable technical reports.
 
