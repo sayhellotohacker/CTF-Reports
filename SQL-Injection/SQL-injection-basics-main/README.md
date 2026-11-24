@@ -154,5 +154,3 @@ Feel free to contribute or open issues if you have any questions or improvements
 
 ---
 
-*Author: Miaad Shirvani*  
-*Date: 2026-05-28*
