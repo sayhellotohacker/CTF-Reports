@@ -127,8 +127,3 @@ Locate the administrator’s password from the extracted data and use it to auth
 - **Burp Suite** for intercepting and modifying HTTP requests  
 - Web browser for login testing using extracted credentials
 
----
-
-*Prepared by: Miaad Shirvani*  
-*Date: May 29, 2026*
-
